@@ -5,52 +5,72 @@
 
   <style type="text/css" media="screen">
     body {
-      background: white;
+      background: black;
       color: #222;
       font-family: sans-serif;
       font-size: 13pt;
     }
     a {
-      text-decoration: none;
-      color: #7070f0;
-    }
+      text-decoration: none underline;
+      color: #996633;
+          font-weight: 700;
+          font-size: small;
+      }
     p { line-height: 180%; }
     li { line-height: 180%; }
+      .auto-style1 {
+          color: #FFFFFF;
+          background-color: #000000;
+      }
   </style>
 
   <script src="unity.js"></script>
 
   <script>
-    unity = new UnityWebMediator;
+      unity = new UnityWebMediator;
   </script>
 
   <title>레이드 헌터 공지 사항</title>
+    
+  <p class="auto-style1"><strong>최신뉴스</strong><ul>
+      <HR style="color: #0099FF" />
 
-  <p><ul>
+    <li><a href ="www.naver.com">[레이드 헌터 런칭 이벤트]</a></li>
+    <li><a href ="www.naver.com">[4월 1일(월) 신규 컨텐츠 업데이트 안내]</a></li>
+    <li><a href ="www.naver.com">[1000만 다운로드 돌파 감사 이벤트]</a></li>
+    <li><a href ="www.naver.com">[1000만 다운로드 돌파 감사 이벤트]</a></li>
+<HR style="color: #0099FF" />
+
+      <img src ="http://star9565.github.com//MyTestFiles/images/updateBanner.png" />
+      <br />
+      <br />
+      <img src ="http://star9565.github.com//MyTestFiles/images/startEvent.png" />
+      <br />
+      <br />
+      <img src ="http://star9565.github.com//MyTestFiles/images/1000Banner.png" />
+
+
     <li><a href="#" onclick='unity.callback("/SceneCall", {scenename:"testScene"})'>testScene 씬으로 이동.</a></li>
     <li><a href="#" onclick='unity.callback("/SceneCall", {scenename:"Main"})'>Main 씬으로 이동.</a></li>
+
+     <!--
     <li><a href="#" onclick='unity.callback("/spawn", {color:"blue"})'>Spawn a blue box</a></li>
     <li><a href="#" onclick='unity.callback("/spawn", {color:"red", scale:0.5})'>Spawn a small red box</a></li>
     <li><a href="#" onclick='unity.callback("/spawn", {color:"blue", scale:0.5})'>Spawn a small blue box</a></li>
     <li><a href="#" onclick='unity.callback("/note", {text:"こんにちは"})'>「こんにちは」</a></li>
     <li><a href="#" onclick='unity.callback("/note", {text:"ごきげんいかが"})'>「ごきげんいかが」</a></li>
     <li><a href="#" onclick='unity.callback("/note", {text:"안녕하세요.메시지."})'>"안녕하세요.메시지"</a></li>
+    
     <li><a href="#" onclick='unity.callback("/note", {text:"Hellow"})'>"Hellow"</a></li>
     <li><a href="#" onclick='unity.callback("/note", {text:"Hellow"})'>"!@#$%^&*()-+"</a></li>
     <li><a href="#" onclick='unity.callback("/note", {text:"Hellow"})'>"!@#$%^&*()-+"</a></li>
     <li><a href="#" onclick='unity.callback("/note", {text:"!@#$%^&*()-+"})'>"!@#$%^&*()-+"</a></li>
-    <li><a href="#" onclick='unity.callback("/note", {text:"!@#$%^&*()-+"})'>"!@#$%^&*()-+"</a></li>
-    <li><a href="#" onclick='unity.callback("/note", {text:"!@#$%^&*()-+"})'>"!@#$%^&*()-+"</a></li>
-    <li><a href="#" onclick='unity.callback("/note", {text:"!@#$%^&*()-+"})'>"!@#$%^&*()-+"</a></li>
-    <li><a href="#" onclick='unity.callback("/note", {text:"!@#$%^&*()-+"})'>"!@#$%^&*()-+"</a></li>
-    <li><a href="#" onclick='unity.callback("/note", {text:"!@#$%^&*()-+"})'>"!@#$%^&*()-+"</a></li>
-    <li><a href="#" onclick='unity.callback("/note", {text:"!@#$%^&*()-+"})'>"!@#$%^&*()-+"</a></li>
-    <li><a href="#" onclick='unity.callback("/note", {text:"!@#$%^&*()-+"})'>"!@#$%^&*()-+"</a></li>
-    <li><a href="#" onclick='unity.callback("/note", {text:"!@#$%^&*()-+"})'>"!@#$%^&*()-+"</a></li>
-    <li><a href="#" onclick='unity.callback("/note", {text:"!@#$%^&*()-+"})'>"!@#$%^&*()-+"</a></li>
+ 
     <li><a href="#" onclick='unity.callback("/close")'>Close</a></li>
     <li><a href="page2.html">Go to page 2.</a></li>
+          -->
   </ul></p>
 
 </head>
 <body>
+
